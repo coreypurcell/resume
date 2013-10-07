@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '~> 3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -16,7 +16,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   gem 'compass-rails'
-  gem 'zurb-foundation'
+  gem 'zurb-foundation', '~> 4.0.0'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
