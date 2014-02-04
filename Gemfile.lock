@@ -45,6 +45,7 @@ GEM
       sass (~> 3.1)
     compass-rails (1.0.3)
       compass (>= 0.12.2, < 0.14)
+    daemon_controller (1.1.8)
     erubis (2.7.0)
     excon (0.25.3)
     execjs (2.0.2)
@@ -73,6 +74,10 @@ GEM
     mime-types (1.25)
     multi_json (1.8.1)
     netrc (0.7.7)
+    passenger (4.0.37)
+      daemon_controller (>= 1.1.0)
+      rack
+      rake (>= 0.8.1)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -142,6 +147,7 @@ DEPENDENCIES
   heroku
   high_voltage
   jquery-rails
+  passenger
   rails (~> 3.2.8)
   sass-rails (~> 3.2.3)
   slim-rails
